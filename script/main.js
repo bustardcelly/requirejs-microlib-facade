@@ -10,9 +10,9 @@
 		require( ['script/selector/SimpleSelector', 'script/router/PathHashTagAdapter', 'lib/vine'], handleLibs );
 	}
 
-	function handleLibs( selectorAdapter, routeAdapter, nonAMDObserver ) {
-		selector = selectorAdapter;
-		router = routeAdapter;
+	function handleLibs( selectorFacade, routeFacade, nonAMDObserver ) {
+		selector = selectorFacade;
+		router = routeFacade;
 		loadScripts( selector, router, vine );
 	}
 
