@@ -4,7 +4,7 @@ define( function() {
 
 			router.map( '/hello', function() {
 				var element = qSA('.test')[0];
-				element.innerHTML = '<p>hello world</p>';	
+				element.innerHTML = '<p>hello, friend.</p>';	
 			});
 			
 		};

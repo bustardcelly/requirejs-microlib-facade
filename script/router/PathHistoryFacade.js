@@ -1,4 +1,4 @@
-define( ['../selector/SimpleSelector', '../../lib/path.min.js'], function( $ ) {
+define( ['../selector/SimpleSelectorFacade', '../../lib/path.min.js'], function( $ ) {
 	
 	var links = $('a'),
 		i = 0, length = links.length;
