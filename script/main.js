@@ -7,7 +7,7 @@
 		require.config({
 			baseUrl: '.'
 		});
-		require( ['script/selector/SimpleSelector', 'script/router/PathHashTagAdapter', 'lib/vine'], handleLibs );
+		require( ['script/selector/SimpleSelectorFacade', 'script/router/PathHashTagFacade', 'lib/vine'], handleLibs );
 	}
 
 	function handleLibs( selectorFacade, routeFacade, nonAMDObserver ) {
